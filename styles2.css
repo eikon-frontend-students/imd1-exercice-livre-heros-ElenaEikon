@@ -1,0 +1,51 @@
+body {
+  background-image: url(forest.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  margin: auto;
+  width: 1167px;
+  height: 779px;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+.container {
+  width: 1167px;
+  height: 779px;
+  border-radius: 200px;
+  background: #232c22;
+  box-shadow: 19px 13px 20px 0 rgba(0, 0, 0, 0.35);
+  padding: 61px 113px 88px 111px;
+}
+p {
+  color: #a8da91;
+  text-align: center;
+  text-shadow: 14px 4px 4px rgba(0, 0, 0, 0.45);
+  font-family: Roboto;
+  font-size: 40px;
+  font-weight: 700;
+}
+button {
+  border-radius: 63px;
+  background: #214228;
+  box-shadow: 19px 13px 20px 0 rgba(0, 0, 0, 0.35);
+  width: 489px;
+  height: 362px;
+}
+button p {
+  color: #a8da91;
+  text-align: center;
+  text-shadow: 14px 4px 4px rgba(0, 0, 0, 0.45);
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: 700;
+  width: 489px;
+  height: 114px;
+}
+.options {
+  display: flex;
+  flex-direction: row;
+  gap: 23px;
+}
