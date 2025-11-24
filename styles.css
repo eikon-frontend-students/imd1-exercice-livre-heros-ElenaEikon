@@ -1,8 +1,108 @@
 body {
-  background-color: #1a1a1a;
-  color: white;
+  background-image: url(forest.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+   margin: left: auto;
+  margin:  right: auto;
+  text-align: center; 
+ 
 }
 
 a {
   color: white;
+}
+
+h1 {
+  width: 1062px;
+  height: 120px;
+  color: #a8da91;
+  text-align: center;
+  text-shadow: 14px 4px 4px rgba(0, 0, 0, 0.45);
+  font-family: "caveat";
+  font-size: 100px;
+  font-weight: 700;
+  width: 843px;
+  height: 178px;
+  border-radius: 200px;
+  background: #232c22;
+  margin: auto;
+background: #232C22;
+box-shadow: 19px 13px 20px 0 rgba(0, 0, 0, 0.35);;
+margin-top: 50px
+
+ 
+ 
+}
+
+button {
+  width: 440px;
+  height: 68px;
+  color: #a8da91;
+  text-align: center;
+  text-shadow: 14px 4px 4px rgba(0, 0, 0, 0.45);
+  font-family: Caveat;
+  font-size: 48px;
+  font-weight: 700;
+  width: 393px;
+  height: 84px;
+  border-radius: 200px;
+  background: #232c22;
+  box-shadow: 19px 13px 20px 0 rgba(0, 0, 0, 0.35);
+  margin-top: 50px;
+}
+.choice {color: #A8DA91;
+text-align: center;
+text-shadow: 14px 4px 4px rgba(0, 0, 0, 0.45);
+font-family: Roboto;
+font-size: 32px;
+font-weight: 700;
+width: 490px;
+height: 269px;
+flex-shrink: 0;
+border-radius: 63px;
+background: #214228;
+width: 489px;
+height: 362px;
+flex-shrink: 0;
+box-shadow: 19px 13px 20px 0 rgba(0, 0, 0, 0.35);
+}
+
+p {
+ 
+  color: #a8da91;
+  text-align: center;
+  text-shadow: 14px 4px 4px rgba(0, 0, 0, 0.45);
+  font-family: Roboto;
+  font-size: 40px;
+  font-weight: 700;
+  width: 1167px;
+  height: 779px;
+  border-radius: 200px;
+  background: #232c22;
+  box-shadow: 19px 13px 20px 30px rgba(0, 0, 0, 0.35);
+   display: flex;
+    margin : auto;
+  
+
+          
+  
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+   width: 1167px;
+  height: 779px;
+  border-radius: 200px;
+  background: #232c22;
+  box-shadow: 19px 13px 20px 30px rgba(0, 0, 0, 0.35);
+   display: flex;
+    margin : auto;
+}
+
+.options {
+  display: flex;
+ flex-direction: row;
 }
